@@ -1,11 +1,12 @@
 import "./App.css";
 import Main from "./Main";
+import { NextUIProvider } from "@nextui-org/react";
 
 function App() {
   return (
-    <div className="App">
+    <NextUIProvider>
       <Main />
-    </div>
+    </NextUIProvider>
   );
 }
 

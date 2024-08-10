@@ -5,8 +5,7 @@ import Box from "@mui/material/Box";
 
 const Main = () => {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      main container
+    <Box padding={"20px"} sx={{ flexGrow: 1 }}>
       <Grid container spacing={2} columns={16}>
         <Grid item xs={8}>
           <Nav />
